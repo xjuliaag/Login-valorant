@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>  
+    <title>Riot </title>
+</head>
+<body>
+    <main>
+        <section class="login">
+            <div class="wrapper">
+                <img src="./img/logo.png" class="login_logo">
+                <h1 class="login_title">Fazer login</h1>
+                <label class="login_label">
+                    <span>nome de usuário</span>
+                    <input type="text" name="username" class="input">
+                </label>
+                <label class="login_label">
+                    <span>senha</span>
+                    <input type="password" name="password" class="input">
+                </label>
+
+                <div class="login_icons">
+                    <button onclick="location.href='https://www.facebook.com/login.php?skip_api_login=1&api_key=344190606773871&kid_directed_site=0&app_id=344190606773871&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv13.0%2Fdialog%2Foauth%3Fclient_id%3D344190606773871%26redirect_uri%3Dhttps%253A%252F%252Fauthenticate.riotgames.com%252Fredirects%252Ffacebook%26state%3D3631fd183a58c14436f16307e75c569b407a508c73bf937e5b3b7bb14ebb%26scope%3Demail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D7a5d0edb-64b0-4d5d-864a-fc953000c83f%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fauthenticate.riotgames.com%2Fredirects%2Ffacebook%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D3631fd183a58c14436f16307e75c569b407a508c73bf937e5b3b7bb14ebb%23_%3D_&display=page&locale=pt_BR&pl_dbl=0'" type="button" class="icons_button">
+                        <img src="./img/facebook.png" alt="facebook">
+                    </button>
+
+                    <button onclick="location.href='https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?access_type=online&scope=openid%20profile%20email&state=759372089f6e0a1a37ae373537f74e5ace60cb303e23bb3a396f3f635ad3&prompt=select_account&response_type=code&client_id=187685766663-ct6bdnthcq6jlllecpg1guhthoc7i8vv.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fauthenticate.riotgames.com%2Fredirects%2Fgoogle&flowName=GeneralOAuthFlow'" type="button" class="icons_button">
+                        <img src="./img/google.png" alt="google">
+                    </button>
+
+                    <button onclick="location.href='https://appleid.apple.com/auth/authorize?response_type=code%20id_token&response_mode=form_post&client_id=com.riotgames.authenticator.prod.client&redirect_uri=https%3A%2F%2Fauthenticate.riotgames.com%2Fredirects%2Fapple&scope=name%20email&nonce=8b01a2f41f49b0cda97d0e7299e0b982b279d52bb4c70631fb9caff9cc9f&state=35fa81dbcab8b7beff14c551394fcec9efc2f5c1a0a460f96f270daf22f7'" type="button" class="icons_button">
+                        <img src="./img/apple.png" alt="apple">
+                    </button>
+                </div>
+
+                <label class="login_label--checkbox">
+                    <input type="checkbox" class="input--checkbox">
+                    Manter login
+                </label>
+            </div>
+
+            <div class="wrapper">
+                <button type="button" class="login__button" disabled>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/>
+                    </svg>
+                </button>
+
+                <a href="#" class="login_link">Não consegue iniciar sessão?</a>
+                <a href="#" class="login_link">Criar conta</a>
+            </div>
+
+        </section>
+
+        <section class="wallpaper"></section>
+    </main>
+
+</body>
+</html>
